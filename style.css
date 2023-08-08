@@ -30,9 +30,24 @@ footer{
 }
 
 .footer-content{
+    list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    text-align: center;
+    margin: 1rem 0 3rem 0;
+}
+.footer-content li{
+    margin: 0 10px;
+}
+.footer-content a{
+    text-decoration: none;
+    color: #333;
+}
+.footer-content a i{
+    font-size: 1.1rem;
+    width: 80px;
+    transition: color .4s ease;
+}
+.footer-content a:hover i{
+    color: aqua;
 }
