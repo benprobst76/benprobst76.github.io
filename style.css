@@ -12,7 +12,9 @@ header {
 .sticky{
     top: -60px;
 }
-
+body {
+    margin: 0;
+}
 .container{
     margin: 0 auto;
     max-width: 50em;
@@ -30,8 +32,8 @@ h1 {
 }
 
 h3 {
-    margin-top: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
     color: #262626;
 }
 img{
