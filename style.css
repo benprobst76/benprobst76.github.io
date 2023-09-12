@@ -1,4 +1,17 @@
+header {
+    background: #333;
+    height: auto;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
 
+}
+.sticky{
+    top: -60px;
+}
 body{
     margin: 0 auto;
     max-width: 50em;
