@@ -45,8 +45,7 @@ footer{
     color: #fff;
 }
 .footer-content a i{
-    font-size: 4.1rem;
-    width: 3.5rem;
+    font-size: 3rem;
     transition: color .4s ease;
 }
 .footer-content a:hover i{
