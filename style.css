@@ -28,13 +28,13 @@ header {
     align-items: center;
     text-decoration: none;
 }
-.footer-content a i{
+.header-content a i{
     transition: color .4s ease;
 }
-.footer-content a:hover i{
+.header-content a:hover i{
     color: aqua;
 }
-.footer-content a:active i {
+.header-content a:active i {
     color: aqua;
 }
 
@@ -74,7 +74,7 @@ h3 {
     margin-left: 1rem;
 }
 footer{
-    position: absolute;
+    position: sticky;
     bottom: 0;
     left: 0;
     right: 0;
