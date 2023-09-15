@@ -45,7 +45,8 @@ img{
     height: 80px;
 }
 .profile-image{
-    float: right!important;
+    float: right;
+    margin-left: 1rem;
 }
 footer{
     position: absolute;
