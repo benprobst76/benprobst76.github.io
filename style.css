@@ -12,6 +12,32 @@ header {
 .sticky{
     top: -60px;
 }
+
+.header-content{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+.header-content li{
+    margin: 0 10px;
+}
+.header-content a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.footer-content a i{
+    transition: color .4s ease;
+}
+.footer-content a:hover i{
+    color: aqua;
+}
+.footer-content a:active i {
+    color: aqua;
+}
+
 body {
     margin: 0;
 }
@@ -40,11 +66,10 @@ h3 {
     padding: 0;
     color: #262626;
 }
-img{
+
+.profile-image{
     width: 15rem;
     height: 15rem;
-}
-.profile-image{
     float: right;
     margin-left: 1rem;
 }
