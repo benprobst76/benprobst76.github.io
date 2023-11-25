@@ -92,7 +92,7 @@ footer{
     margin: 1rem 0 1rem 0;
 }
 .footer-content li{
-    margin: 0 10px;
+    margin: 10px 10px;
 }
 .footer-content a{
     display: flex;
