@@ -9,6 +9,11 @@ header {
     transition: top 0.3s;
 
 }
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
 .sticky{
     top: -60px;
 }
@@ -73,7 +78,18 @@ h3 {
     float: right;
     margin-left: 1rem;
 }
-
+.download-btn{
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem; 
+    padding: auto; 
+}
 .resume-image{
     object-fit: fill;
     width: auto;
