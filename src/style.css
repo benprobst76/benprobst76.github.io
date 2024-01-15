@@ -8,7 +8,7 @@ header {
     transition: top 0.3s;
 
 }
-a {
+.a-header {
     text-decoration: none;
     padding: 10px;
 }
